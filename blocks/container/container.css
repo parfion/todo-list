@@ -1,0 +1,8 @@
+.container {
+    margin-top: 20px;
+    border: 2px solid gray;
+    border-radius: 2%;
+    min-width: 500px;
+    min-height: 400px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}

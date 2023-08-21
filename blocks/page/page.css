@@ -1,0 +1,10 @@
+.page {
+    background: linear-gradient(45deg, #9890e3, #b1f4cf);
+    min-height: 100vh;
+    box-sizing: border-box;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
