@@ -12,7 +12,6 @@
 - Figma
 - Адаптивная вёртска
 - Медиазапросы
-- Grid Layuot
 - Flexbox
 - :hover
 - БЭМ
@@ -23,4 +22,3 @@
 - ООП
 - NPM
 - Webpack
-- API
