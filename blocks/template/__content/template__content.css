@@ -1,0 +1,15 @@
+.template__content {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px;
+    border: 1px solid gray;
+    background-color: transparent;
+    opacity: 0;
+    animation: ani .5s forwards;
+    min-height: 40px;
+}
+
+@keyframes ani {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }

@@ -1,0 +1,9 @@
+.done {
+    text-decoration: line-through black 1.5px;
+    animation: strike .75s ease-in-out
+}
+
+@keyframes strike{
+    0%     { transform-origin:  0% 50%;transform:scaleX(0); }
+    50%    { transform-origin:  0% 50%;transform:scaleX(1);  }
+  }

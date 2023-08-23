@@ -1,10 +1,15 @@
 .page {
-    background: linear-gradient(45deg, #9890e3, #b1f4cf);
+    background-image: url('../../images/page.jpg');
+    background-size: cover;
     min-height: 100vh;
     box-sizing: border-box;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    margin: 0 auto;
+    font-family: 'Inter', 'Arial', sans-serif;
+    margin: 0 auto;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
 }
