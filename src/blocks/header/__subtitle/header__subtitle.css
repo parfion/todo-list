@@ -1,0 +1,19 @@
+.header__subtitle {
+    float: right;
+    font-family: 'Inter';
+    margin: 0;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: white;
+    text-shadow: 1px 5px 5px gray;
+    opacity: .9;
+};
+
+@media screen and (max-width: 767px) {
+    .header__subtitle  {
+        font-size: 14px;
+        letter-spacing: 1px;
+        float: none;
+        color: black
+    }
+};

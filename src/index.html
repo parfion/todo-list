@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+</head>
+<body class="page">
+    <header class="header">
+        <h1 class="header__title">todo list</h1>
+        <p class="header__subtitle" data-title="цени свое время">take your time</p>
+    </header>
+
+    <main>
+        <form class="add">
+            <input name="input-value" type="text" class="add__input" 
+            placeholder="Just do it..." >
+            <button type="submit" class="add__button add__button-inactive" disabled="true"></button>
+        </form>
+
+        <section class="container">
+            
+        </section>
+
+        <template class="template">
+            <div class="template__content">
+                <p class="template__text"></p>
+                <div class="template__buttons">
+                    <button class="template__button-done"></button>
+                    <button class="template__button-delete"></button>
+                </div>
+                
+            </div>
+        </template>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <a href="https://github.com/parfion" target="_blank"><img type="buton" class="footer__image" 
+            alt="Гитхаб лого" src="<%=require('./images/github.svg')%>"></a>
+        <h2 class="footer__name">Alexander Parfionov</h2>
+    </footer>
+</body>
+</html>
